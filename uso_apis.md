@@ -28,3 +28,7 @@ Propios.
 - Las grandes empresas no dejarán que sus productos se deterioren, por lo que es bastante común que los servicios accedidos a través de las APIs estén en una constante mejora, que además en muchos casos será totalmente transparente al programador que las usa.
 
 - Es necesario tratar de mejorarlas constantemente, con lo que los usuarios de las APIs se verán beneficiados con todas las mejoras que se vayan produciendo.
+
+
+## Uso de APIS
+Cuando queremos almacenar información en la nube y usar dicha información para mostrarla en diferentes plataformas, podemos usar apis que nos permitan comunicarnos con el sitio que esta almacenando nuestra informacion, de esta manera podemos hacer uso de los datos sin importar lo que sea estemos desarrollando.
