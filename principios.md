@@ -35,3 +35,32 @@ Es necesario hacer un juicioso análisis de riesgos para poder enfocarse en los 
 10. Poner más cuidado en los puntos más vulnerables, no hay que olvidar que el nivel máximo de seguridad viene dado por el punto más débil.
 
 Finalmente, es muy importante resaltar que un atacante necesita solamente un pequeño error, una vulnerabilidad para lograr su cometido. Si dentro de la empresa se descuidan los temas de seguridad por acelerar la operatividad del negocio, se podria estar dejando la puerta abierta a que se comprometa la seguridad de la información. Ser responsables con los procesos es la mejor defensa, y no está de más preguntarse si es mejor invertir unas semanas más en desarrollo, que perder reputación y dinero en un instante por un incidente de seguridad.
+
+## Directrices de codificación segura
+Para lograr la seguridad, es muy esencial tener un 'Estándar de codificación segura' identificado para un programa desde el principio del desarrollo de la aplicación, y esto ayuda al equipo a cuidar los valores predeterminados de seguridad del software y a protegerlo de los ataques.
+
+Es fundamental asegurarse de que todo el equipo esté Obligado a adherirse a este estándar , independientemente del lenguaje de codificación y las herramientas que estén utilizando en el programa.
+
+A continuación se muestran algunos ejemplos que deben implementarse de forma predeterminada en el diseño de código seguro:
+
+El acceso debe restringirse solo a usuarios autenticados y la autenticación debe implementarse en cada capa.
+Los canales de comunicación deben estar cifrados para proteger los tokens de autenticación.
+Todas las claves, contraseñas y certificados deben almacenarse y protegerse adecuadamente.
+Es necesario implementar el cifrado de archivos, el cifrado de bases de datos y el cifrado de elementos de datos.
+
+## Recomendaciones y reglas de codificación segura
+Será bueno que el Programa defina un conjunto de 'Recomendaciones y reglas de codificación segura' que el código fuente puede ser evaluado para su cumplimiento de modo que los probadores puedan llevar a cabo la 'Pruebas de cumplimiento de conformidad' para cada uno de estos estándares de codificación segura.
+
+Por lo tanto, el código de seguridad puede certificarse como Conforme o No Conforme usando esas reglas contra el punto de referencia establecido.
+
+Algunas de las reglas que se mencionan a continuación se pueden usar para verificar si hay violaciones de seguridad:
+
+Los archivos deben cerrarse cuando ya no se necesiten.
+Siempre que pase una estructura a través de un límite, se debe evitar la fuga de información.
+Los objetos deben declararse con una duración de almacenamiento adecuada.
+Por lo tanto, los casos de prueba para verificar estas reglas deben diseñarse y llevarse a cabo para verificar el cumplimiento de la conformidad. También se identifica que la mayoría de las vulnerabilidades son causadas por errores de programación comunes típicos.
+
+Por lo tanto, el desarrollador debe comprender 'Método de codificación inseguro' , mientras también aprenden las mejores prácticas de codificación segura. Es ideal para recopilar los errores de programación más comunes que contribuyen a las vulnerabilidades de seguridad de su aplicación para que puedan ser atendidos durante la codificación.
+
+Estos errores de programación típicos se deben principalmente a desbordamientos de búfer, secuencias de comandos entre sitios y fallas de inyección.
+
